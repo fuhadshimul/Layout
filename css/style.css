@@ -1,53 +1,45 @@
-<h1{
+h1{
 	padding: 30px;
 	text-align: center;
 }
-.head{
+.header{
 	width: 100%;
 	min-height: 100px;
-	background-color: green;
+	background-color: blue ;
 	display: flow-root;
 }
 
 .navigation{
 	min-height: 200px;
-	background-color: yellow;
+	background-color: orange;
 	display: flow-root;
 }
-
 .body{
 	min-height: 300px;
-	background-color: red;
+	background-color: green;
 	display: flow-root;
 }
 
 .wrapper{
 	overflow: hidden;
 }
-
-.sidebar{
-	width: 30%;
-	min-height: 400px;
-	background-color: blue;
-	float: left;
-}
-
-.middle_bar{
+.leftbar{
 	width: 40%;
 	min-height: 400px;
 	background-color: yellow;
 	float: left;
 }
 
-.right_sidebar{
-	width: 30%;
+.rightbar{
+	width: 60%;
 	min-height: 400px;
-	background-color: blue;
-	float: left;
+	background-color: violet;
+	float: right;
+	
 }
 
 .footer{
 	min-height: 100px;
-	background-color: grey;
+	background-color: silver;
 	display: flow-root;
 }
